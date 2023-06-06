@@ -4,13 +4,16 @@
 
 <header sticky>
   <navbar type="dark">
-    <a slot="brand" href="{{baseUrl}}/index.html" title="Home" class="navbar-brand">Your Logo</a>
-    <li><a href="{{baseUrl}}/contents/topic1.html" class="nav-link">Topic 1</a></li>
-    <li><a href="{{baseUrl}}/contents/topic2.html" class="nav-link">Topic 2</a></li>
-    <dropdown header="Topic 3" class="nav-link">
-      <li><a href="{{baseUrl}}/contents/topic3a.html" class="dropdown-item">Topic 3a</a></li>
-      <li><a href="{{baseUrl}}/contents/topic3b.html" class="dropdown-item">Topic 3b</a></li>
+    <a slot="brand" href="{{baseUrl}}/index.html" title="Home" class="navbar-brand">CS4269: Tech Interviews 101</a>
+    <dropdown header="Algorithms" class="nav-link">
+      <li><a href="{{baseUrl}}/contents/arrays.html" class="dropdown-item">Arrays</a></li>
+      <li><a href="{{baseUrl}}/contents/trees.html" class="dropdown-item">Trees</a></li>
+      <li><a href="{{baseUrl}}/contents/hashing.html" class="dropdown-item">Hashing</a></li>
+      <li><a href="{{baseUrl}}/contents/graphs.html" class="dropdown-item">Graphs</a></li>
+      <li><a href="{{baseUrl}}/contents/dynamic.html" class="dropdown-item">Dynamic Programming</a></li>
     </dropdown>
+    <li><a href="{{baseUrl}}/contents/sql.html" class="nav-link">SQL</a></li>
+    <li><a href="{{baseUrl}}/contents/systems.html" class="nav-link">System Design</a></li>
     <li slot="right">
       <form class="navbar-form">
         <searchbar :data="searchData" placeholder="Search" :on-hit="searchCallback" menu-align-right></searchbar>
@@ -27,11 +30,14 @@
     <div class="nav-component slim-scroll">
       <site-nav>
 * [Home :house:]({{ baseUrl }}/index.html)
-* [Topic 1]({{baseUrl}}/contents/topic1.html)
-* [Topic 2]({{baseUrl}}/contents/topic2.html)
-* Topic 3 :expanded:
-  * [Topic 3a]({{baseUrl}}/contents/topic3a.html)
-  * [Topic 3b]({{baseUrl}}/contents/topic3b.html)
+* [Introduction]({{baseUrl}}/contents/intro.html)
+* [Arrays]({{baseUrl}}/contents/arrays.html)
+* [Trees]({{baseUrl}}/contents/trees.html)
+* [Hashing]({{baseUrl}}/contents/hashing.html)
+* [Graphs]({{baseUrl}}/contents/graphs.html)
+* [Dynamic Programming]({{baseUrl}}/contents/dynamic.html)
+* [SQL]({{baseUrl}}/contents/sql.html)
+* [System Design]({{baseUrl}}/contents/systems.html)
       </site-nav>
     </div>
     <collapse-expand-buttons />

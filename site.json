@@ -1,5 +1,5 @@
 {
-  "baseUrl": "",
+  "baseUrl": "Tech-Interviews-101",
   "titlePrefix": "",
   "titleSuffix": "",
   "ignore": [
@@ -23,6 +23,8 @@
     }
   ],
   "deploy": {
-    "message": "Site Update."
+    "message": "Site Update.",
+    "repo": "https://github.com/EssWhyy/Tech-Interviews-101.git",
+    "branch": "gh-pages"
   }
 }
