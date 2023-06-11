@@ -1,0 +1,107 @@
+{
+  "enableSearch": true,
+  "pages": [
+    {
+      "src": "404.md",
+      "title": "Page not found",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "README.md",
+      "title": "",
+      "headings": {
+        "tech-interviews-101": "Tech-Interviews-101"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/arrays.md",
+      "title": "Arrays",
+      "headings": {
+        "arrays": "Arrays",
+        "common-array-manipulation-tricks": "Common Array Manipulation Tricks",
+        "filtering": "Filtering",
+        "mapping": "Mapping",
+        "sorting": "Sorting",
+        "binary-search": "Binary Search",
+        "sliding-window": "Sliding Window",
+        "prefix-sum": "Prefix Sum"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/dynamic.md",
+      "title": "Topic 3b",
+      "headings": {
+        "topic-3b": "Topic 3b"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/graphs.md",
+      "title": "Graphs",
+      "headings": {
+        "graphs": "Graphs",
+        "general-structure": "General Structure",
+        "breadth-first-search": "Breadth First Search",
+        "depth-first-search": "Depth First Search",
+        "directed-acyclic-graph-and-topological-sort": "Directed Acyclic Graph and Topological Sort",
+        "shortest-path-algorithm": "Shortest Path Algorithm",
+        "minimum-spanning-trees": "Minimum Spanning Trees"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/hashing.md",
+      "title": "Topic 3a",
+      "headings": {
+        "topic-3a": "Topic 3a"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/intro.md",
+      "title": "",
+      "headings": {
+        "about-this-site": "About This Site",
+        "contents-covered": "Contents covered:"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/sql.md",
+      "title": "Topic 3b",
+      "headings": {
+        "topic-3b": "Topic 3b"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/systems.md",
+      "title": "Topic 3b",
+      "headings": {
+        "topic-3b": "Topic 3b"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/trees.md",
+      "title": "Topic 2",
+      "headings": {
+        "topic-2": "Topic 2"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "index.md",
+      "title": "Home Page",
+      "headings": {
+        "what-just-happened": "What just happened?",
+        "navigating-this-site": "Navigating this site",
+        "guide-to-markbind": "Guide to MarkBind"
+      },
+      "headingKeywords": {}
+    }
+  ]
+}
